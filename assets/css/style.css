@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: grey;
+}
+#logoColor2{
+    color: rgb(3, 148, 3);
+}
+
+.nav-item{
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:active{
+    background-color: green !important;
+    transition: background 0.5s;
+    border-radius: 5px;
+
+}
+
+.header{
+    background: url('../../img/jAlogor.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+.header h1
+{
+    text-align: right;
+    color: rgb(200, 54, 28);
+}
+.header h2{
+    text-align: right;
+    color:seagreen;
+}
+
+
+.subheading{
+    color:green;
+    font-size:1.5em;
+    text-align: center;
+}
+
+.img-logo{
+    display: inline-block;
+}
+
+.media{
+
+    border-right: 10px solid lavender;
+    border-top:5px solid lavender ;
+    border-left: 10px solid lavender;
+    border-bottom: 5px solid lavender;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.view-link{
+    text-align: center;
+    margin-top: 5px;
+    padding: 20px;
+    background-color: rgb(199, 199, 199);
+    border-radius: 5px;
+}
+
+
+.w-100{
+    /* height: 2px; */
+    
+}
+
+.liens-cours-acceuil a{
+    color:;
+}
+
+
+.liens-cours-acceuil a:hover{
+    text-decoration: none;
+}
+
+
+/*footer*/
+
+footer{
+    background-color: #000;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.footer-class{
+    color: white;
+}
+
+.list-unstyled li a{
+    color: gray;
+    text-decoration: none;
+
+}
+
+.list-unstyled li span{
+    color: grey;
+}
+.rss-icons li {
+    display: inline;
+}
+.copyright{
+    color: grey;
+}
+
+/*HTML5&CSS3 page*/
+
+.jumbotron{
+
+    /* background-image: url('../../img/bootstrap.png'); */
+    /* background-repeat: no-repeat; */
+}
+
+button a:hover {
+    text-decoration: none;
+}

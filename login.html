@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="assets/css/stylelogin.css">
+      <link rel="stylesheet" href="bootstrap-4.5.0/dist/css/bootstrap.min.css">
+      <title>japprdsACoder, nous contacter </title>
+</head>
+<body id="login-page">
+
+      <div>
+            <h2 id="indicateText"> <span id="id00"> Acceder au </span>formulaire de connexion</h2>
+            <button onclick="document.getElementById('id01').style.display='block'; document.getElementById('id00').style.display='none';" class="login-firstbtn">Connexion</button>
+            
+            <div class="container" style="display: block;">
+                  <p><a href="index.html"><img src="img/retour.png" alt="returnimg" width="50" height="50">Retour</a></p>
+            </div>
+
+            <div id="id01" class="modal">
+                  <form action="" class="modal-content animate">
+                        <div class="imgcontainer">
+                              <span onclick="document.getElementById('id01').style.display='none'; document.getElementById('id00').style.display='inline'" class="close" title="Close Modal">&times;</span>
+
+                              <img src="img/joie.jpg" alt="Avatar" class="avatar" width="100" height="100">
+
+                              <p style="height:2px;">Valentin ZONGO</p>
+                        </div>
+
+                        <div class="container">
+                              <label><b>Username</b></label>
+                              <input type="text" placeholder="Enter username" name="uname" required>
+
+                              <label><b>Password</b></label>
+                              <input type="password" placeholder="Enter Password" name="psw" required>
+
+                              <button type="submit">Login</button>
+                              <input type="checkbox" checked="checked">Se rappeler de moi?
+                        </div>
+
+                        <div class="container" style="background-color: #f1f1f1;">
+                              <button type="button" onclick="document.getElementById('id01').style.display='none'; document.getElementById('id00').style.display='inline';" class="cancelbtn">Cancel</button>
+                              <span class="psw"> <a href="">Mot de passe oublié?</a></span>
+                        
+                        </div>
+                  </form>
+            </div>
+      </div>
+   
+
+       <script src="bootstrap-4.5.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
